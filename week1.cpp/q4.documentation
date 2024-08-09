@@ -1,0 +1,39 @@
+# Simple Calculator in C - Documentation
+
+This project demonstrates how to create a simple calculator using C. It performs basic arithmetic operations such as addition, subtraction, multiplication, and division based on user input.
+
+## Code Structure
+
+### main Function
+
+The `main` function runs an infinite loop using `while (1)`, allowing continuous operation until the user decides to exit. The user is prompted to enter an operator and two operands. The corresponding arithmetic operation is then performed using a switch statement.
+
+### Arithmetic Operations
+
+- **Addition (`case '+'`)**: Adds two operands.
+- **Subtraction (`case '-'`)**: Subtracts the second operand from the first.
+- **Multiplication (`case '*'`)**: Multiplies two operands.
+- **Division (`case '/'`)**: Divides the first operand by the second, with error handling for division by zero.
+
+### Exit and Error Handling
+
+- **Exit (`case 'x'`)**: Terminates the program using `exit(0)`.
+- **Invalid Operator**: Displays an error message if the user enters an invalid operator.
+
+## Running the Calculator
+
+To run the calculator on your local machine, follow these steps:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/neeeeevin/simple-calculator-in-c.git
+    cd simple-calculator-in-c
+    ```
+2. Compile the program:
+    ```bash
+    gcc simple_calculator.c -o calculator
+    ```
+3. Run the program:
+    ```bash
+    ./calculator
+    ```
