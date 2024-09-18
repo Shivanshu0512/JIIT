@@ -1,0 +1,16 @@
+1.)
+import numpy as np
+import matplotib.pyplot as plt
+from scipy.signal import butter, filtfilt
+
+np.random.seed(0)
+traffic_data =np.random.seed(50,120,size=1440)
+
+noide=np.random.normal(0,5,size=1440)
+noisy_traffic_data=traffic_data+noise;
+
+
+2.)
+def low_pass_filter(data,cutoff=0,1,fs=1,0, order=5):
+    nyquist=0.5 * fs
+    cutoff=cutoff 
